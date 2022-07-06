@@ -85,3 +85,5 @@ dist
 deploy.sh
 data/
 ecosystem.config.js
+package-lock.json
+yarn.lock
