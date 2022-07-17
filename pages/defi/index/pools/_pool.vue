@@ -36,7 +36,7 @@ export default {
 
   //head() {
   //  return {
-  //    title: `Alcor.exchange | Liquidity pools`,
+  //    title: `TheMaxChange.exchange | Liquidity pools`,
 
   //    meta: [
   //      { hid: 'description', name: 'description', content: `Swap tokens or make income on liquidity providing` }

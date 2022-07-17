@@ -89,7 +89,7 @@
       .col
         .row.mt-2
           .col
-            .lead With Alcor you can trade any EOS.IO tokens for system EOS tokens,
+            .lead With TheMaxChange you can trade any EOS.IO tokens for system EOS tokens,
               | atomically, without the participation of third parties! The tokens should comply with the
               | standard eosio.token of the contract.
 
@@ -196,7 +196,7 @@ export default {
   head() {
     const chain = this.$store.state.network.name.toUpperCase()
     return {
-      title: `Alcor Exchange | (${chain}) Self-Listing DEX`
+      title: `TheMaxChange Exchange | (${chain}) Self-Listing DEX`
     }
   }
 }

@@ -124,7 +124,7 @@ export default {
 
     cancelAll() {
       let confirmTitle = 'Cancel all orders'
-      let confirmText = 'Are you sure you want to cancel all current orders throughout all pairs on Alcor?'
+      let confirmText = 'Are you sure you want to cancel all current orders throughout all pairs on TheMaxChange?'
 
       let ordersToCalcel = []
 

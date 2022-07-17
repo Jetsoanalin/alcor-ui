@@ -163,7 +163,7 @@ export default {
 
   head() {
     return {
-      title: `Alcor NFT Market | ${this.$t('META_NFT_MARKET_TITLE')} on ${this.network.name.toUpperCase()} chain`,
+      title: `TheMaxChange NFT Market | ${this.$t('META_NFT_MARKET_TITLE')} on ${this.network.name.toUpperCase()} chain`,
 
       meta: [
         { hid: 'description', name: 'description', content: this.$t('META_NFT_MARKET_DESCRIPTION') }

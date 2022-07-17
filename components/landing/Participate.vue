@@ -2,7 +2,7 @@
 .participage
   .inner.alcor-inner
     SectionTitle {{ $t('Participate in Protocol') }}
-    .text {{ $t('Alcor DAO coming soon') }}..
+    .text {{ $t('TheMaxChange DAO coming soon') }}..
     .main
       .left
         .left-inner
@@ -10,7 +10,7 @@
             .circle
             .details
               span.title {{ $t('Earn') }}
-              span.desc {{ $t('Alcor Revenue Distribution') }}
+              span.desc {{ $t('TheMaxChange Revenue Distribution') }}
           .item
             .circle
             .details

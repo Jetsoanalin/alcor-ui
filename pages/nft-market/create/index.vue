@@ -226,7 +226,7 @@ export default {
 
   head() {
     return {
-      title: 'Alcor NFT Market | Create you ownt NFT tokens',
+      title: 'TheMaxChange NFT Market | Create you ownt NFT tokens',
 
       meta: [
         { hid: 'description', name: 'description', content: 'Atomic, NFT creation form' }

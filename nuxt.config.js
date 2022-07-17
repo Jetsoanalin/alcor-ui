@@ -23,8 +23,8 @@ module.exports = {
   */
   head() {
     const i18nHead = this.$nuxtI18nHead({ addSeoAttributes: true })
-    const desc = `Alcor Exchange ${this.$t('META_DESCRIPTION')}`
-    const title = `Alcor Exchange | ${this.$t('META_TITLE')}`
+    const desc = `TheMaxChange Exchange ${this.$t('META_DESCRIPTION')}`
+    const title = `TheMaxChange Exchange | ${this.$t('META_TITLE')}`
 
     return {
       title,
@@ -43,7 +43,7 @@ module.exports = {
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'mask-icon', color: '#5bbad5', href: '/safari-pinned-tab.svg' },
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/themaxchange.png' },
         ...i18nHead.link
       ]
     }

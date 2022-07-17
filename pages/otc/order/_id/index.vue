@@ -188,7 +188,7 @@ export default {
 
   head() {
     return {
-      title: `Alcor OTC swap | Sell ${this.order.sell.quantity} for ${this.order.buy.quantity} by ${this.order.maker}`
+      title: `TheMaxChange OTC swap | Sell ${this.order.sell.quantity} for ${this.order.buy.quantity} by ${this.order.maker}`
     }
   }
 }

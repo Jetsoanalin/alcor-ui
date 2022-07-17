@@ -187,8 +187,8 @@ export default {
 
     const title =
       input && output
-        ? `Alcor Exchange | Swap ${input.symbol} for ${output.symbol}`
-        : 'Alcor Exchange | Swap & Earn on your Liquidity'
+        ? `TheMaxChange Exchange | Swap ${input.symbol} for ${output.symbol}`
+        : 'TheMaxChange Exchange | Swap & Earn on your Liquidity'
 
     const meta = [
       {

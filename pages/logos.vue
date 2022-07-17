@@ -3,7 +3,7 @@
   .col
     .row
       .col
-        .display-4 Alcor Project logo
+        .display-4 TheMaxChange Project logo
 
     .row.mt-4
       .col
@@ -13,7 +13,7 @@
     .row.mt-4
       .col
         .lead Black
-        img(height="100" src="~/assets/logos/alcorwhite.svg")
+        img(height="100" src="~/assets/logos/themaxchange.png")
 
   .col
     .row

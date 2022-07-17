@@ -27,12 +27,12 @@ footer(:class="{isMobile}").alcor-inner
         | Is very useful eosio chains explorer.
         br
         | It uses for show all deals history and token contracts.
-  span.bottom.muted © 2021 Alcor
+  span.bottom.muted © 2021 TheMaxChange
   //- .mt-3
   //-   .row.mt-5
   //-     .col-lg-5(v-if="!isMobile")
   //-       img(v-if="$colorMode.value == 'light'" src="~/assets/logos/alcorblack2.svg" height="55").logo
-  //-       img(v-else src="~/assets/logos/alcorwhite2.svg" height="55").logo
+  //-       img(v-else src="~/assets/logos/themaxchange.png" height="55").logo
   //-     .col-lg-2
   //-       ul.nav.footer-column
   //-         li.nav-item

@@ -20,7 +20,7 @@ export default class AnchoWallet extends WalletBase {
       linkOptions: { chainId: this.network.chainId, endpoints: Object.keys(this.network.client_nodes), restoreSession: true },
       transportOptions: { requestAccount: this.network.contract },
       selectorOptions: {
-        appName: 'Alcor',
+        appName: 'TheMaxChange',
         appLogo: 'https://wax.alcor.exchange/android-chrome-192x192.svg'
       }
     })
@@ -53,7 +53,7 @@ export default class AnchoWallet extends WalletBase {
       },
 
       selectorOptions: {
-        appName: 'Alcor',
+        appName: 'TheMaxChange',
         appLogo: 'https://wax.alcor.exchange/android-chrome-192x192.svg',
         customStyleOptions: {
           modalBackgroundColor: '#F4F7FA',
@@ -86,7 +86,7 @@ export default class AnchoWallet extends WalletBase {
   }
 
   async logout() {
-    await this.link.removeSession('Alcor Exchange', this.session.auth)
+    await this.link.removeSession('TheMaxChange Exchange', this.session.auth)
     this.session = undefined
   }
 

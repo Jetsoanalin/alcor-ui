@@ -50,7 +50,7 @@ class ProtonProvider {
         requestStatus: true
       },
       selectorOptions: {
-        appName: 'Alcor Exchange',
+        appName: 'TheMaxChange Exchange',
         appLogo: 'https://wax.alcor.exchange/android-chrome-192x192.svg',
 
         customStyleOptions: {

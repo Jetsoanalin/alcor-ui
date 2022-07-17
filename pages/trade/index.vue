@@ -71,7 +71,7 @@ export default {
     const { symbol, quote_token, base_token } = this.$store.state.market
 
     return {
-      title: `Alcor Exchange | Market ${symbol}`,
+      title: `TheMaxChange Exchange | Market ${symbol}`,
 
       meta: [
         {

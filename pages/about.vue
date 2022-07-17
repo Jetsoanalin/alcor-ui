@@ -3,7 +3,7 @@
     .col
       .row.mt-2
         .col
-          h2.lead {{ $t('With Alcor you can trade any EOS.IO tokens for system EOS tokens, atomically, without the participation of third parties! The tokens should comply with the standard eosio.token of the contract') }}.
+          h2.lead {{ $t('With TheMaxChange you can trade any EOS.IO tokens for system EOS tokens, atomically, without the participation of third parties! The tokens should comply with the standard eosio.token of the contract') }}.
 
       .row
         .col

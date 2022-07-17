@@ -10,7 +10,7 @@ nav.nav(v-if='!isMobile')
       img.logo(
         v-else='',
         height='44',
-        src='~/assets/logos/alcorwhite.svg',
+        src='~/assets/logos/themaxchange.png',
         alt=''
       )
     ul.nav-items
@@ -35,7 +35,7 @@ nav.nav(v-if='!isMobile')
         img.logo(
           v-else='',
           height='34',
-          src='~/assets/logos/alcorwhite.svg',
+          src='~/assets/logos/themaxchange.png',
           alt=''
         )
 
@@ -54,7 +54,7 @@ nav.nav(v-if='!isMobile')
         img(
           v-else='',
           height='50',
-          src='~/assets/logos/alcorwhite.svg',
+          src='~/assets/logos/themaxchange.png',
           alt=''
         )
       ul.menu-items
@@ -107,7 +107,7 @@ export default {
       }
 
       items.push({ index: '/wallet', name: 'Wallet' })
-      items.push({ index: '/docs', name: 'Docs' })
+      //items.push({ index: '/docs', name: 'Docs' })
 
       return items
     }
